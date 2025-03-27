@@ -21,25 +21,25 @@ export default function Header() {
           <Link href="/">Home</Link>
         </li>
         <li>
-          <Link href="/">Who we are</Link>
+          <Link href="/who-we-are">Who we are</Link>
         </li>
         <li>
           <BasicMenu />
         </li>
         <li>
-          <Link href="/">Case history</Link>
+          <Link href="/offshore-solutions">Offshore solutions</Link>
         </li>
         <li>
-          <Link href="/">After sales</Link>
+          <Link href="/after-sales">After sales</Link>
         </li>
         <li>
-          <Link href="/">News</Link>
+          <Link href="/news">News</Link>
         </li>
         <li>
-          <Link href="/">Customers</Link>
+          <Link href="/customers">Customers</Link>
         </li>
         <li>
-          <Link href="/">Gallery</Link>
+          <Link href="/gallery">Gallery</Link>
         </li>
       </ul>
     </header>

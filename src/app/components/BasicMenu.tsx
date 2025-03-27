@@ -21,7 +21,7 @@ export default function BasicMenu() {
     <div>
       <Box onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
         <Link href="" color="inherit">
-          Solutions
+          Products
         </Link>
 
         <Menu
@@ -33,9 +33,21 @@ export default function BasicMenu() {
             "aria-labelledby": "basic-button",
           }} // Закрывает при уходе мыши
         >
-          <MenuItem onClick={handleMouseLeave}>Profile</MenuItem>
-          <MenuItem onClick={handleMouseLeave}>My account</MenuItem>
-          <MenuItem onClick={handleMouseLeave}>Logout</MenuItem>
+          <MenuItem onClick={handleMouseLeave}>
+            <Link href="/marine-hoses">Marine hoses</Link>
+          </MenuItem>
+          <MenuItem onClick={handleMouseLeave}>
+            <Link href="/offshore-chains">Offshore chains</Link>
+          </MenuItem>
+          <MenuItem onClick={handleMouseLeave}>
+            <Link href="/moorings">Moorings</Link>
+          </MenuItem>
+          <MenuItem onClick={handleMouseLeave}>
+            <Link href="/marine-winches">Marine winches</Link>
+          </MenuItem>
+          <MenuItem onClick={handleMouseLeave}>
+            <Link href="/hev">HEV</Link>
+          </MenuItem>
         </Menu>
       </Box>
     </div>

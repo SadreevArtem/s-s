@@ -24,3 +24,54 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@theme {
+  --color-primary: #5229dd;
+  --breakpoint-sm: 320px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1280px;
+  --breakpoint-xl: 1440px;
+  --text-xs: 12px;
+  --text-sm: 14px;
+  --text-md: 14px;
+  --text-base: 16px;
+  --text-lg: 20px;
+  --text-xl: 24px;
+  --text-xl-2: 28px;
+  --text-2xl: 36px;
+  --text-3xl: 48px;
+  --text-4xl: 64px;
+}
+
+@layer components {
+  .container {
+    @apply max-w-full h-full px-4 md:px-6 lg:max-w-[1024px] lg:px-0 xl:max-w-[1360px] mx-auto lg:h-[calc(100vh-120px)];
+  }
+
+  .block-container {
+    @apply py-8 md:py-20;
+  }
+  .title-lg {
+    @apply text-lg font-semibold;
+  }
+
+  .title-xl {
+    @apply text-xl font-semibold;
+  }
+
+  .title-xl-2 {
+    @apply text-xl-2 font-bold;
+  }
+
+  .title-2xl {
+    @apply text-2xl font-bold;
+  }
+
+  .title-3xl {
+    @apply text-3xl font-extrabold;
+  }
+
+  .title-4xl {
+    @apply text-4xl font-extrabold;
+  }
+}
