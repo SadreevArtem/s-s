@@ -1,40 +1,70 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Offshore Chains – High-Strength Mooring & Anchoring Solutions",
+  description:
+    "Explore our premium offshore chains designed for mooring, anchoring, and offshore operations. Built for durability, corrosion resistance, and compliance with international safety standards.",
+};
+
 export default function Page() {
   return (
     <div className="container mt-8">
-      <h1 className="text-center title-2xl">Offshore Chains</h1>
+      <h1 className="text-center title-2xl">
+        Offshore Chains – Reliable & Durable Solutions for Offshore Operations
+      </h1>
       <p>
-        We provide high-quality offshore chains designed for the demanding
-        conditions of marine and offshore environments. Our chains are used in
-        mooring systems, anchoring solutions, and offshore structures, ensuring
-        strength, durability, and resistance to harsh sea conditions.
+        We supply high-quality offshore chains engineered for the toughest
+        marine and offshore environments. Our chains are used in mooring
+        systems, anchoring solutions, and offshore structures, ensuring superior
+        strength, longevity, and corrosion resistance.
       </p>
 
-      <h3>Our Product Range:</h3>
+      <h3>Our Offshore Chain Solutions:</h3>
       <ul>
-        <li>
-          <strong>Stud-Link Chains</strong> – Ideal for mooring applications,
-          offering high strength and corrosion resistance.
+        <li className="flex flex-row items-center">
+          <h2 className="title-lg">Stud-Link Offshore Chains</h2> –{" "}
+          <p>
+            Heavy-duty chains designed for secure offshore mooring and anchoring
+            of rigs, vessels, and floating platforms.
+          </p>
         </li>
-        <li>
-          <strong>Non-Stud Chains</strong> – Suitable for specific offshore
-          applications requiring flexibility and reduced weight.
+        <li className="flex flex-row items-center">
+          <h2 className="title-lg">Non-Stud Offshore Chains</h2> –{" "}
+          <p>
+            Flexible and lightweight chains for specialized offshore
+            applications.
+          </p>
         </li>
-        <li>
-          <strong>Anchor Chains</strong> – Designed for secure anchoring of
-          vessels, rigs, and floating platforms.
+        <li className="flex flex-row items-center">
+          <h2 className="title-lg">Anchor Chains</h2> –{" "}
+          <p>
+            High-strength chains for reliable anchoring of offshore structures,
+            oil platforms, and FPSOs.
+          </p>
         </li>
-        <li>
-          <strong>Offshore Mooring Chains</strong> – Engineered for long-term
-          mooring solutions, meeting international safety standards.
+        <li className="flex flex-row items-center">
+          <h2 className="title-lg">Offshore Mooring Chains</h2> –{" "}
+          <p>
+            Engineered for long-term offshore mooring, built to withstand
+            extreme marine conditions.
+          </p>
+        </li>
+        <li className="flex flex-row items-center">
+          <h2 className="title-lg">Offshore Chain Accessories</h2> –{" "}
+          <p>
+            Shackles, swivels, and connectors to enhance the efficiency and
+            safety of mooring and anchoring systems.
+          </p>
         </li>
       </ul>
 
       <p>
-        All our offshore chains comply with industry certifications such as DNV,
-        ABS, and Lloyd’s Register, ensuring superior performance in critical
-        offshore operations. We work closely with leading manufacturers to
-        deliver reliable, high-quality solutions for your marine and offshore
-        needs.
+        All our offshore chains meet international industry certifications,
+        including DNV, ABS, and Lloyd’s Register, guaranteeing compliance with
+        the highest safety and performance standards. Whether for offshore
+        drilling platforms, floating storage units, or marine terminals, our
+        offshore chain solutions provide the strength and reliability you need
+        for critical offshore operations.
       </p>
     </div>
   );

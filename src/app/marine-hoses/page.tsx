@@ -1,39 +1,55 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title:
+    "Marine Hoses – Durable & High-Performance Hoses for Offshore Operations",
+  description:
+    "Discover our range of offshore marine hoses designed for oil, gas, and chemical transfer. High-performance, durable, and compliant with international safety standards.",
+};
+
 export default function Page() {
   return (
     <div className="container">
-      <h1 className="text-center title-2xl">Marine hoses</h1>
+      <h1 className="text-center title-2xl">
+        Offshore Marine Hoses – Reliable Solutions for Offshore Fluid Transfer
+      </h1>
       <p>
-        We supply high-performance marine hoses designed to meet the demanding
-        conditions of offshore and marine operations. Our hoses are engineered
-        for durability, flexibility, and safety, ensuring efficient transfer of
-        oil, gas, chemicals, and other fluids in harsh marine environments.
+        We supply supply high-quality offshore marine hoses engineered for the
+        demanding conditions of offshore drilling platforms, vessels, and marine
+        terminals. Our hoses ensure safe, efficient, and reliable fluid
+        transfer, even in harsh marine environments.
       </p>
-      <p>Our product range includes: </p>
+      <h3 className="title-xl">Our Offshore Marine Hose Solutions: </h3>
       <ul>
-        <li>
-          Floating and Submarine Hoses – Designed for offshore loading and
-          unloading operations.
+        <li className="flex flex-row items-center">
+          <h2 className="title-lg">Floating and Submarine Hoses</h2> -{" "}
+          <p>Designed for offshore loading and unloading operations.</p>
         </li>
-        <li>
-          Bunkering Hoses – For safe fuel and liquid transfer between vessels
-          and shore facilities.
+        <li className="flex flex-row items-center">
+          <h2 className="title-lg">Bunkering Hoses</h2> -{" "}
+          <p>
+            For safe fuel and liquid transfer between vessels and shore
+            facilities.
+          </p>
         </li>
-        <li>
-          Chemical and Oil Transfer Hoses – Resistant to aggressive substances
-          and extreme conditions.
+        <li className="flex flex-row items-center">
+          <h2 className="title-lg">Chemical and Oil Transfer Hoses</h2> -{" "}
+          <p>Resistant to aggressive substances and extreme conditions.</p>
         </li>
-        <li>
-          Dredging Hoses – Built for heavy-duty applications in marine
-          construction and port operations.
+        <li className="flex flex-row items-center">
+          <h2 className="title-lg">Dredging Hoses</h2> -{" "}
+          <p>
+            Built for heavy-duty applications in marine construction and port
+            operations.
+          </p>
         </li>
       </ul>
 
       <p>
-        We work with leading manufacturers to provide hoses that comply with
-        international standards, ensuring reliability, longevity, and safety in
-        critical applications. Whether for offshore platforms, FPSOs, or
-        terminal operations, we deliver solutions tailored to your operational
-        needs.
+        All our hoses comply with international industry standards, including
+        OCIMF, API, and ISO, ensuring durability, flexibility, and safety in
+        offshore applications. Partner with us for reliable offshore marine hose
+        solutions tailored to your operational needs.
       </p>
     </div>
   );

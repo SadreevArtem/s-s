@@ -21,9 +21,6 @@ export default function Header() {
           <Link href="/">Home</Link>
         </li>
         <li>
-          <Link href="/who-we-are">Who we are</Link>
-        </li>
-        <li>
           <BasicMenu />
         </li>
         <li>
