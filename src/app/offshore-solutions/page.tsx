@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 export default function Page() {
   return (
-    <div className="container mt-8">
+    <div className="container mt-8 min-h-[calc(100vh-40px)]">
       <h1 className="text-center title-2xl">
         Offshore Marine Solutions – Excellence in Offshore Operations
       </h1>

@@ -4,7 +4,7 @@ import BasicMenu from "./BasicMenu";
 
 export default function Header() {
   return (
-    <header className="flex items-center justify-center my-4">
+    <header className="flex items-center justify-center my-4 z-10">
       <ul className="flex items-center gap-8">
         <li>
           <Link className="" href="/">
@@ -18,25 +18,40 @@ export default function Header() {
           </Link>
         </li>
         <li>
-          <Link href="/">Home</Link>
+          <Link className="hover:border-b-2 border-orange" href="/">
+            Home
+          </Link>
         </li>
         <li>
           <BasicMenu />
         </li>
         <li>
-          <Link href="/offshore-solutions">Offshore solutions</Link>
+          <Link
+            className="hover:border-b-2 border-orange"
+            href="/offshore-solutions"
+          >
+            Offshore solutions
+          </Link>
         </li>
         <li>
-          <Link href="/after-sales">After sales</Link>
+          <Link className="hover:border-b-2 border-orange" href="/after-sales">
+            After sales
+          </Link>
         </li>
         <li>
-          <Link href="/news">News</Link>
+          <Link className="hover:border-b-2 border-orange" href="/news">
+            News
+          </Link>
         </li>
         <li>
-          <Link href="/customers">Customers</Link>
+          <Link className="hover:border-b-2 border-orange" href="/customers">
+            Customers
+          </Link>
         </li>
         <li>
-          <Link href="/gallery">Gallery</Link>
+          <Link className="hover:border-b-2 border-orange" href="/gallery">
+            Gallery
+          </Link>
         </li>
       </ul>
     </header>

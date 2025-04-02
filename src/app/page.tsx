@@ -1,11 +1,20 @@
+import Image from "next/image";
+
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center  p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <div className="container mt-8">
-          <h1 className="text-center title-2xl">Who we are</h1>
-          <h2 className="text-center my-4">Reliable & Honest</h2>
-          <p className="">
+    <div className="items-center justify-items-center  px-8 gap-16 font-[family-name:var(--font-geist-sans)]">
+      <main className="flex flex-col gap-[32px] items-center">
+        <div className="relative -mt-20 -z-10">
+          <Image alt="" src="/main.jpg" width={1280} height={100} />
+          <h2 className="absolute top-[50%] left-[200px] text-white title-3xl">
+            Who we are
+          </h2>
+        </div>
+        <div className="container">
+          <h3 className="text-center mb-4 title-2xl border-b-2 border-orange mx-auto w-[max-content]">
+            Reliable & Honest
+          </h3>
+          <p className="mb-12 text-lg py-8 text-justify">
             We are a trusted provider of high-quality services and supplies for
             shipyards, offshore drilling platforms, and various types of
             vessels. With years of experience in the maritime and offshore

@@ -1,3 +1,4 @@
+import { Card, CardContent, CardMedia, Typography } from "@mui/material";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -9,21 +10,37 @@ export const metadata: Metadata = {
 
 export default function Page() {
   return (
-    <div className="container">
-      <h1 className="text-center title-2xl">
+    <div className="container min-h-[calc(100vh-40px)]">
+      <h1 className="text-center mb-4 title-2xl border-b-2 border-orange mx-auto w-[max-content]">
         Offshore Marine Hoses – Reliable Solutions for Offshore Fluid Transfer
       </h1>
-      <p>
+      <p className="text-lg text-justify">
         We supply supply high-quality offshore marine hoses engineered for the
         demanding conditions of offshore drilling platforms, vessels, and marine
         terminals. Our hoses ensure safe, efficient, and reliable fluid
         transfer, even in harsh marine environments.
       </p>
-      <h3 className="title-xl">Our Offshore Marine Hose Solutions: </h3>
-      <ul>
-        <li className="flex flex-row items-center">
-          <h2 className="title-lg">Floating and Submarine Hoses</h2> -{" "}
-          <p>Designed for offshore loading and unloading operations.</p>
+      <h3 className="title-xl mb-12 mt-4">
+        Our Offshore Marine Hose Solutions:{" "}
+      </h3>
+      <ul className="grid grid-cols-2 mb-12">
+        <li className="flex items-center justify-center">
+          <Card sx={{ maxWidth: 345 }}>
+            <CardMedia
+              component="img"
+              alt="Floating and Submarine Hoses"
+              height="140"
+              image="/images/marine-hoses/submarine.png"
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div">
+                <h2 className="title-lg">Floating and Submarine Hoses</h2>
+              </Typography>
+              <Typography variant="body2" sx={{ color: "text.secondary" }}>
+                Designed for offshore loading and unloading operations.
+              </Typography>
+            </CardContent>
+          </Card>
         </li>
         <li className="flex flex-row items-center">
           <h2 className="title-lg">Bunkering Hoses</h2> -{" "}

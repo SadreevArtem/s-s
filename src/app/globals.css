@@ -23,10 +23,13 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 @theme {
   --color-primary: #5229dd;
+  --color-orange: #fc4d17;
   --breakpoint-sm: 320px;
   --breakpoint-md: 768px;
   --breakpoint-lg: 1280px;
@@ -45,7 +48,7 @@ body {
 
 @layer components {
   .container {
-    @apply max-w-full h-full px-4 md:px-6 lg:max-w-[1024px] lg:px-0 xl:max-w-[1360px] mx-auto lg:h-[calc(100vh-120px)];
+    @apply max-w-full px-4 md:px-6 lg:max-w-[1024px] lg:px-0 xl:max-w-[1360px] mx-auto;
   }
 
   .block-container {
