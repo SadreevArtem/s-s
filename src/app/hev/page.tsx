@@ -1,63 +1,68 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "HEV – Hybrid Electric Solutions for Offshore & Marine Applications",
+  title: "HEV – Hose End Valves for Safe and Efficient Offshore Fluid Transfer",
   description:
-    "Discover advanced Hybrid Electric Vehicle (HEV) solutions for offshore and marine industries. Improve efficiency, reduce emissions, and enhance sustainability with our cutting-edge hybrid technology.",
+    "Discover high-performance hose end valves (HEVs) designed for offshore loading and unloading operations. Engineered for safety, durability, and optimal flow control.",
 };
 
 export default function Page() {
   return (
     <div className="container mt-8 min-h-[calc(100vh-40px)]">
       <h1 className="text-center mb-4 title-2xl border-b-2 border-orange mx-auto w-[max-content]">
-        HEV – Hybrid Electric Solutions for Marine & Offshore Operations
+        HEV – Hose End Valves for Offshore and Marine Applicationsы
       </h1>
       <p>
-        We provide Hybrid Electric Vehicle (HEV) solutions tailored for the
-        marine and offshore industries. Our hybrid systems combine traditional
-        fuel-based power with electric propulsion, ensuring improved fuel
-        efficiency, lower emissions, and enhanced operational sustainability.
+        We supply reliable and high-quality Hose End Valves (HEVs) used in
+        offshore fluid transfer systems. Installed at the end of floating or
+        submarine hoses, HEVs play a critical role in ensuring safe, efficient,
+        and controlled loading and unloading of oil, gas, and chemical products
+        in marine environments.
       </p>
 
-      <h3 className="title-xl">Our HEV Solutions:</h3>
+      <h3 className="title-xl">Key Features of Our HEVs:</h3>
       <ul>
         <li className="flex flex-row items-center">
-          <h2 className="title-lg">Hybrid Marine Vessels</h2> -{" "}
+          <h2 className="title-lg">High Flow Efficiency</h2> -{" "}
           <p>
-            Combining traditional fuel engines with electric motors to reduce
-            fuel consumption and emissions in marine operations.
+            Designed to minimize pressure loss and optimize transfer
+            performance.
           </p>
         </li>
         <li className="flex flex-row items-center">
-          <h2 className="title-lg">Hybrid Offshore Platforms</h2> -{" "}
+          <h2 className="title-lg">Automatic Shut-off</h2> -{" "}
           <p>
-            Utilizing hybrid technology for more sustainable offshore
-            operations, reducing dependency on conventional energy sources.
+            Safety mechanism to prevent spills in the event of hose failure or
+            disconnection.
           </p>
         </li>
         <li className="flex flex-row items-center">
-          <h2 className="title-lg">HEV Cargo Vehicles</h2> -{" "}
+          <h2 className="title-lg">Corrosion-Resistant Materials</h2> -{" "}
           <p>
-            Eco-friendly hybrid vehicles for transporting goods efficiently with
-            minimal environmental impact.
+            Built to withstand harsh offshore conditions and aggressive media.
           </p>
         </li>
         <li className="flex flex-row items-center">
-          <h2 className="title-lg">Electric Hybrid Power Systems</h2> -{" "}
+          <h2 className="title-lg">Compatibility</h2> -{" "}
           <p>
-            Power systems for marine and offshore applications designed to
-            combine renewable energy sources with hybrid technology.
+            Engineered to fit with a wide range of marine hoses and transfer
+            systems.
+          </p>
+        </li>
+        <li className="flex flex-row items-center">
+          <h2 className="title-lg">Compliance</h2> -{" "}
+          <p>
+            Manufactured according to international standards such as OCIMF,
+            API, and ISO.
           </p>
         </li>
       </ul>
 
       <p>
-        Our HEV technology complies with global sustainability standards,
-        helping offshore and marine industries transition to greener energy
-        solutions while maintaining performance and reliability. Whether you
-        need a hybrid propulsion system for vessels or energy-efficient offshore
-        solutions, we offer cutting-edge hybrid technologies designed for
-        maximum efficiency and minimal environmental impact.
+        Our hose end valves are trusted by offshore operators for their
+        reliability, safety, and long service life. Whether in use on FPSOs,
+        terminals, or support vessels, HEVs are a vital component in maintaining
+        the integrity and safety of offshore transfer operations.
       </p>
     </div>
   );
